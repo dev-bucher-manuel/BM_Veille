@@ -1,0 +1,140 @@
+body
+{
+    background: linear-gradient( rgb(49, 49, 49), rgb(32, 32, 32));
+}
+
+.bg-image
+{
+    background-image: url("../images/logo.png");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+html
+{
+    background: rgb(32, 32, 32);
+}
+#indexScreen,.formulaireEmployer,.formulaireClient,.carteLivreur
+{
+
+    background-color:  white;
+}
+header
+{
+    background-color: white;
+}
+#boutonAcceuil
+{
+    background-color: white;
+}
+
+.bgWhite
+{
+    background-color: white;
+}
+
+.titreAcceuil
+{
+    color:  #e0ae00;
+    font-size: 40px;
+    font-weight: bold;
+}
+#banniere
+{
+    
+    background-color: white;
+    height: 20px;
+}
+#footer{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    height: 70px;
+
+}
+#scrennLivreur
+{
+    background-color: white;
+}
+.cancel
+{
+    background-color: red;
+    border: none;
+
+}
+.cancel:hover
+{
+    background-color: red;
+}
+.infoUtiles
+{
+    height: 150px;
+    padding-top: 0px;
+}
+.carteTest
+{
+    background-color:lightgrey;
+
+}
+.titreCarte
+{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration:underline;
+}
+.expediteur
+{
+    border-bottom: 3px dotted black;
+}
+.destinataire
+{
+    border-bottom: dotted 3px black;
+}
+.formulaireClient , .formulaireEmployer, .carteLivreur, .test
+{
+    display: none;
+}
+.sizeBtnMain
+{
+    width: 150px;
+}
+
+#admin
+{
+    display: none;
+}
+
+.underline:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px){
+    #bodyAdmin{
+        display: none
+    }
+    #ecranTropPetit {
+        display: block
+    }
+   
+}
+@media screen and (max-width: 1000px){
+     .bg-image{
+        background-image: url("../images/banniere.png");
+        background-repeat: no-repeat;
+        height: 250px;
+        background-position: center;
+    }
+}
+* {
+    background-image: url();
+    background-color: grey;
+}
+.image-container {
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
